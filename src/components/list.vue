@@ -1,6 +1,6 @@
 
 <template>
-  <div>
+  <div id="list" style=" height: calc(100vh - 60px);">
     <h2>list</h2>
     <p>{{count}}</p>
     <button @click="add">增加</button>
@@ -37,5 +37,8 @@ export default {
 <style lang="less" scoped>
 div{
   padding: 5px 10px;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
 }
 </style>

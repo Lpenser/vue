@@ -1,6 +1,6 @@
 
 <template>
-  <div>
+  <div id="home" style=" height: calc(100vh - 60px);">
     <h2>home</h2>
     <p>{{count}}</p>
     <button @click="add">增加</button>
@@ -60,5 +60,7 @@ export default {
 div {
   padding: 5px 10px;
   text-align: center;
+  box-sizing: border-box;
+  width: 100%;
 }
 </style>

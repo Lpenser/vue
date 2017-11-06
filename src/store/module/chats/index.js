@@ -5,7 +5,9 @@ export default {
         num:10
     },
     mutations:{
-
+        test(state){
+            state.num+=10;
+        }
     },
     actions:{
 
